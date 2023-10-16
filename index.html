@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-PortFolio-</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./Assets/Favicon - 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+</head>
+<body>
+
+    <!-- =====================STYLE SWITCHER========================= -->
+    
+    <input type="checkbox" id="day-night">
+    <div class="style__switcher">
+        <label for="day-night" class="style__switcher-theme">
+            <i class="fa-solid fa-sun"></i>
+            <i class="fa-solid fa-moon"></i>
+        </label>
+    </div>
+
+    <!-- =================HEADER======================= -->
+
+    <header class="header" >
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo"><span class="folio">Teja Boddu.</span></a>
+
+            
+            <input type="checkbox" class="nav-togler-checkbox" id="nav-toggler">
+
+            <label for="nav-toggler" class="nav__toggle">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link active-link">Home </a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link active-link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#Skills" class="nav__link active-link">Skills</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#Resume" class="nav__link active-link">Resume</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#Projects" class="nav__link active-link">Projects</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link active-link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ======================MAIN===================== -->
+    <main class="main">
+        <!-- =========================HOME===================== -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <span class="home__small">Hello</span>
+                    <h1 class="home__title"><span>I'm </span>Teja <br> a <span> Full Stack Java developer &&<br> Web Developer</span> </h1>
+                    <p class="home__description">
+                        Hi There, I'm Teja I'm a Web Developer I recently Graduated in the stream of a B.SC Degree from Andhra Univeristy. As a Fresh graduate, I am excited to kickstart my career in web developing
+                    </p>
+                    <div class="home__btns">
+                        <a href="#contact" class="btn" id="hireme"> Hire Me  <i class="fa-solid fa-arrow-right"></i></a>
+                        <a href="https://drive.google.com/file/d/1ileKocKk6IZ5syZCvT71iAOFU4LT5Gxa/view?usp=drive_link" class="btn btn--transparent">Resume <i class="fa-solid fa-file"></i></a>
+                    </div>
+                </div>
+
+                <div class="home__img-wrapper">
+                    <img src="./Assets/photo-removebg-preview.png" class="home__img" alt="home image">
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- =========================ABOUT========================== -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__img-wrapper">
+                    <img src="./Assets/Image6.jpg" class="about__img" alt="">
+                    <img src="./Assets/Image6.jpg" class="about__img" alt="">
+                    <img src="./Assets/Image6.jpg" class="about__img" alt="">
+                    <img src="./Assets/Image6.jpg" class="about__img" alt="">
+                </div>
+                <div class="about__content">
+                    <h2 class="section__title" data-title="WHO AM I?">
+                        I'm Teja, a Web developer
+                    </h2>
+                    <p class="about__description">
+                        Dear viewers, I will feel grateful to prodcast about myself to the respected viewers. I have completed my Bachelor's Degree in Andhra University in the Stream of Computer Science & conquered 7.87 CGPA. In our college, we were taught how to work with the SQL language, which improved our Skills in interacting with SQL, storing user data, and retrieving user data.and that was my first interaction working with database. and I found it quite interesting, after that I was very interested to learn programing langauge and with that interest I took a course on Java Full Stack developer.I possess strong coding skills and a deep understanding of various programming languages. Additionally, my ability to adapt and learn quickly enables me to tackle complex challenges effectively. 
+                    </p>
+
+                    <ul class="about__data grid">
+                        <li class="data__item">
+                            <h3 class="data__title">Name :</h3>
+                            <span class="data__description"> B  Kanaka Teja</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Age:</h3>
+                            <span class="data__description"> 21 Years</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">From:</h3>
+                            <span class="data__description"> Vizag, Andhra Pradesh, India</span>
+                        </li>
+                        <li class="data__item">
+                            <h3 class="data__title">Email:</h3>
+                            <span class="data__description about__link"> <a href="#Email" type="Email">kanakatejaboddu@gmail.com</a></span>
+                        </li>
+                    </ul>
+                    <div class="about__bottom">
+                        <button class="buttonDownload" data-timer="5">
+                            <a href="https://drive.google.com/file/d/1ileKocKk6IZ5syZCvT71iAOFU4LT5Gxa/view?usp=drive_link" class="btn downloadcv" download>Download Cv  <i class="fa-solid fa-cloud-arrow-down"></i> </a>
+                        </button>
+
+                        <div class="about__social-links">
+                            <a href="https://www.linkedin.com/in/kanaka-teja-boddu" class="about__social-link">
+                                 <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/TejaBoddu" class="about__social-link">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================SKILLS==================== -->
+        <section class="Skillscontainer" id="Skills">
+            <!-- ********* Skills Main Heading starts ********** -->
+            <div class="main-title">
+                <h2 class="section__title title-center" data-title="SKILLS I HAVE">Professional Skills</h2>
+                <p>
+                 Here is My Skills To Reprasent My Expertise
+                </p>
+            </div>
+            <!-- ********* Main Heading Ends ********** -->
+
+            <div class="row">
+
+                 <!-- ********* Left section starts here********** -->
+
+                 <section class="col">
+                    <div class="sub-title">
+                        <h2>Programming Skills</h2>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <div class="subject">HTML5</div>
+                            <div class="progress-bar" value="94%">
+                                <div class="progress-line" style="max-width: 94%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">CSS3</div>
+                            <div class="progress-bar" value="85%">
+                                <div class="progress-line" style="max-width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">JavaScript</div>
+                            <div class="progress-bar" value="80%">
+                                <div class="progress-line" style="max-width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">SQL</div>
+                            <div class="progress-bar" value="85%">
+                                <div class="progress-line" style="max-width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="subject">spring framework</div>
+                            <div class="progress-bar" value="83%">
+                                <div class="progress-line" style="max-width: 83%;"></div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                 </section>
+                 <!-- *********** Left section ends here*********** -->
+
+                 <!-- ************* Right section starts here *************** -->
+
+
+                 <section class="col">
+                    <div class="sub-title">
+                        <h2>Programming Skills</h2>
+                    </div>
+                    <div class="skills-container">
+                        <div class="skill">
+                            <div class="subject">Java</div>
+                            <div class="progress-bar" value="80%">
+                                <div class="progress-line" style="max-width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">Core Java</div>
+                            <div class="progress-bar" value="85%">
+                                <div class="progress-line" style="max-width: 85%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">Advance Java (J2EE)</div>
+                            <div class="progress-bar" value="80%">
+                                <div class="progress-line" style="max-width: 80%;"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <div class="subject">MySQL</div>
+                            <div class="progress-bar" value="85%">
+                                <div class="progress-line" style="max-width: 85%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill">
+                            <div class="subject">Ms - Office (word, excell, Power Point)</div>
+                            <div class="progress-bar" value="70%">
+                                <div class="progress-line" style="max-width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                 </section>
+                 <!-- ******** Right section ends here************ -->
+            </div>
+        </section>
+        
+           <!-- ======================Resume======================== -->
+
+       <div class="Resume-main-container sub-title" id="Resume">
+        <h2 class="section__title title-center" data-title="MY">Resume</h2>
+        <p>I am Teja, Graduated from Andhra Univeristy, Passionate about coding Problem - Solving, and contributing to innovative Projects</p>
+       </div>
+
+       <section class="Resume-container">
+        
+        <main class="Resume-row">
+            <section class="Resume-col" id="works">
+                <header class="resume-title">
+                    <h2>Summary</h2>
+                </header>
+    
+               
+                <div class="resume-contents">
+                    <div class="resume-box">
+                        <h3 class="name">Teja </h3>
+                        <p> I am Teja, a Passionate coder with expertise in Java,Spring Framework,Web Technologies, SQL, MySQL. My dedication and skills make me valuable asset in the dynamic field of software development.  </p>
+
+                        <div class="resume-box-add">
+                            <a href="#"><i class="fa-solid fa-house"></i> Visakhapatnam, Andhra Pradesh</a> <br>
+                            <a href="#"><i class="fa-solid fa-phone"></i>(+91) 9110504XXXX</a><br>
+                            <a href="#"><i class="fa-solid fa-envelope"></i>kanakatejaboddu@gmail.com</a>
+                        </div>
+
+                    </div>
+                    <header class="resume-title">
+                        <h2>Education</h2>
+                    </header>
+
+                    <div class="resume-box">
+                        <h4>2019 - 2022</h4>
+                        <h3>Bachelor's Degree</h3>
+                        <p>Andhra University, Visakhapatnam</p>
+                        <p>CGPA : 7.87</p>
+                    </div>
+    
+                    <div class="resume-box">
+                        <h4>2017 - 2019</h4>
+                        <h3>Intermediate 12TH</h3>
+                        <p>Sree kasyap Junior College, Visakhapatnam</p>
+                        <p>CGPA : 6.04</p>
+                    </div>
+    
+                    <div class="resume-box">
+                        <h4>2017</h4>
+                        <h3>High School 10TH</h3>
+                        <p>Gnananiketanh High School, Visakhapatnam</p>
+                        <p>CGPA : 8.0</p>
+                    </div>
+    
+                </div>
+    
+    
+            </section>
+    
+    
+            <!-- Projects section starts -->
+            <section class="Resume-col" id="works">
+                
+                <header class="resume-title">
+                    <h2>Projects</h2>
+                </header>
+                <div class="resume-contents">
+                    <div class="resume-box">
+                        <h3> <i class="fa-solid fa-greater-than"></i> Netflix Landing Page</h3>
+                        <p>Developed a Responsive Netflix Landing page using html and css and Javascript with SingIn & SingUp Process. Created Responsively for larger deveices and smaller devices.</p>
+                    </div>
+    
+                    <div class="resume-box">
+                        <h3> <i class="fa-solid fa-greater-than"></i> Bank Application</h3>
+                        <p>Developed  a Simple Bank Application Using Core Java concetps and JSP servlets, In this Project user can access their accounts and they can do deposite,Retrive Money, Mini Statements etc.,</p>
+                    </div>
+    
+                    <div class="resume-box">
+                        <h3> <i class="fa-solid fa-greater-than"></i> mama earth website</h3>
+                        <p> Developed a Responsive mama earth website page using html and css and Javascript. In this website user can see the different types of products and add to cart and implemented several effects using css etc.,</p>
+                    </div>
+
+                    <div class="resume-box">
+                        <h3> <i class="fa-solid fa-greater-than"></i> Energy Efficient Query Processing System On Web search Engines</h3>
+                        <p>Search engines are composed by thousands of query processing nodes so, in this project we mainly introduced that (PESOS). which means PREDECTIVE ENERGY SAVING ONLINE SERVICES. The main purpose of this project to reduce the CPU energy consumption</p>
+                    </div>
+
+                    <div class="resume-box">
+                        <h3> <i class="fa-solid fa-greater-than"></i> Clock - Display</h3>
+                        <p>I developed this project using HTML and CSS & JavaScript</p>
+                    </div>
+    
+                </div>
+    
+    
+            </section>
+        </main>
+
+       </section>
+
+
+        <!-- ======================Projects sections====================== -->
+        <div class="main-title" id="Projects">
+            <h2 class="section__title title-center" data-title="RECENT">Projects</h2>
+        </div>
+        <section class="project-container">
+                <div class="project-card">
+                    <div class="imgBox">
+                        <img src="./Project-images/Mamaearth.webp" alt="Project 1">
+                    </div>
+                    <div class="project-content">
+                        <h2>Mama earth Website</h2>
+                        <p>I've built a user-friendly Mama Earth website, ensuring it looks great and works smoothly on all devices. Dive into Mama Earth's world of eco-friendly products and discover their mission to create a greener planet. <i class="fa-solid fa-arrow-right"></i> </p>
+                        <div class="project-btns">
+                            <button class="project-btn-">
+                                <a href="https://github.com/TejaBoddu/mama-earth-website.git"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                            </button>
+                            <button class="project-btn-">
+                                <a href="https://mama-earth-website.netlify.app/"> <i class="fa fa-arrow-up-right-from-square"></i>Deployed</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="imgBox">
+                        <img src="./Project-images/landing page.png" alt="Project 2">
+                    </div>
+                    <div class="project-content">
+                        <h2>Landing Page</h2>
+                        <p>I've crafted a sleek, responsive company landing page using HTML, CSS, and JavaScript. It provides an engaging platform to showcase your company's offerings and values. With its user-friendly design, this page ensures a seamless experience for visitors on various devices, helping you make a strong online presence. <i class="fa-solid fa-arrow-right"></i> </p>
+                        <div class="project-btns">
+                            <button class="project-btn-">
+                                <a href="https://github.com/TejaBoddu/Company-Landing-Page/tree/master"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                            </button>
+                            <button class="project-btn-">
+                                <a href="https://company-landing-page-2ce984.netlify.app/"> <i class="fa fa-arrow-up-right-from-square"></i>Deployed</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="imgBox">
+                        <img src="./Project-images/PESOS.png" alt="Project 3">
+                    </div>
+                    <div class="project-content">
+                        <h2>Energy Efficient Query Processing System On Web Search Engines</h2>
+                        <p>Executed a final year project aimed at optimizing the energy efficiency of web search engines, 
+                            consisting of thousands of query processing nodes, Proposed the selection of the most fitting CPU frequency to process a query on a core basis. <i class="fa-solid fa-arrow-right"></i>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="imgBox">
+                        <img src="./Project-images/Bank-Appn.png" alt="Project 4">
+                    </div>
+                    <div class="project-content">
+                        <h2>Simple Bank Application</h2>
+                        <p>Experience seamless banking with our user-friendly Java-based bank application. Easily create accounts, check balances, view mini-statements, and perform secure transactions like deposits and withdrawals. Manage your finances effortlessly and stay in control. <i class="fa-solid fa-arrow-right"></i> </p>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="imgBox">
+                        <img src="./Project-images/Currency converter.png" alt="Project 5">
+                    </div>
+                    <div class="project-content">
+                        <h2>Currency Converter</h2>
+                        <p>I developed a currency converter project using HTML, CSS, and JavaScript, integrating a currency API for retrieving country codes, names, and flags. This handy tool simplifies currency conversion tasks with accurate and up-to-date information.<i class="fa-solid fa-arrow-right"></i> </p>
+                        <div class="project-btns">
+                            <button class="project-btn-">
+                                <a href="https://github.com/TejaBoddu/currency-converter"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                            </button>
+                            <button class="project-btn-">
+                                <a href="https://tejaboddu.github.io/currency-converter/"> <i class="fa fa-arrow-up-right-from-square"></i>Deployed</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="imgBox">
+                        <img src="./Project-images/netflix page.png" alt="Project 6">
+                    </div>
+                    <div class="project-content">
+                        <h2>Netflix Landing Page</h2>
+                        <p>I have created a Netflix landing webpage using HTML, CSS, and JavaScript, allowing users to conveniently create and sign up for accounts to access an extensive library of streaming content.<i class="fa-solid fa-arrow-right"></i> </p>
+                        <div class="project-btns">
+                            <button class="project-btn-">
+                                <a href="https://github.com/TejaBoddu/Netflix-Website/tree/master"><i class="fa-brands fa-square-github"></i> GitHub</a>
+                            </button>
+                            <button class="project-btn-">
+                                <a href="https://netflix-webpage-me.netlify.app/"> <i class="fa fa-arrow-up-right-from-square"></i>Deployed</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+
+        <!-- ============= Contact section ========= -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title title-center" data-title="GET IN TOUCH">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__details">
+                    <div class="contact__item">
+                        <i class="fa fa-phone contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Call Me</h3>
+                            <span class="contact__data">+91 9110504888</span>
+                        </div>
+                    </div>
+
+
+                    <div class="contact__item">
+                        <i class="fa fa-envelope contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Email </h3>
+                            <span class="contact__data">kanakatejaboddu@gmail.com</span>
+                        </div>
+                    </div>
+
+
+                    <div class="contact__item">
+                        <i class="fa fa-location-dot contact__icon"></i>
+
+                        <div>
+                            <h3 class="contact__title">Address</h3>
+                            <span class="contact__data">44-4-4, Andhra Pradesh, Visakhapatnam - 530016</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form">
+                    <div class="form__group">
+                        <div class="form__input">
+                            <input type="text" class="input__control" placeholder="Name">
+                        </div>
+
+                        <div class="form__input">
+                            <input type="email" class="input__control" placeholder="Email">
+                        </div>
+
+                    </div>
+
+                    <div class="form__input">
+                        <input type="text" class="input__control" placeholder="subject">
+                    </div>
+
+                    <div class="form__input">
+                        <textarea name="" id="" cols="30" rows="10" class="input__control textarea" placeholder="Type Message"></textarea>
+                    </div>
+
+                    <button class="btn contact__btn">Send</button>
+                </form>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__copyright">&copy; 2023 Teja</p>
+
+            <div class="footer__social-links">
+                <a href="https://www.linkedin.com/in/kanaka-teja-boddu" class="footer__social-link">
+                     <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/TejaBoddu" class="footer__social-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+<script src="./Script.js"></script>  
+</body>
+</html>
